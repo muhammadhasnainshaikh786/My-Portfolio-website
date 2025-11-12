@@ -1,212 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <title>Hasnain's Portfolio website</title>
-    </head>
-    
-    <body>
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <!-- <img src="assets/img/perfil.png" alt="Logo" style="height: 60px; width: 60px; border-radius: 60%; border: 2px solid #e8efea; margin-right: 10px; object-fit: cover;"> -->
-                    <a href="#AboutMe" class="nav__logo">Welcome to my personal portfolio</a>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Hasnain | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#AboutMe" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#home" class="nav__logo">Muhammad Hasnain</a>
+        </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#AboutMe" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#expertise" class="nav__link">Expertise</a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">Experience</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-               
-      <div class="container-fluid h-100">
-        <div class="row h-100 align-items-center">
-          <div class="col-12 text-center">
-            <h3 class="intro-text">
-              I'm
-              <div class="wavy">
-                <span style="--i: 1"> M</span>
-                <span style="--i: 2">U</span>
-                <span style="--i: 3">H</span>
-                <span style="--i: 4">A</span>
-                <span style="--i: 5">M</span>
-                <span style="--i: 6">M</span>
-                <span style="--i: 6">A</span>
-                <span style="--i: 6">D</span>
-                <span style="--i: 7">  </span>
-                <span style="--i: 8">  </span>
-                <span style="--i: 9">H</span>
-                <span style="--i: 10">A</span>
-                <span style="--i: 11">S</span>
-                <span style="--i: 12">N</span>
-                <span style="--i: 13">A</span>
-                <span style="--i: 14">I</span>
-                <span style="--i: 15">N</span>
-              </div>
-            </h3>
-            <br /><br />
-            <h3 class="intro-text2">
-            Turning ideas into <br> digital reality with code,<br> creativity, and consistency.
-              <span id="changing-text" class="animate-text"></span>
-            </h3>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ===== HOME ===== -->
+    <section class="home bd-grid" id="home">
+      <div class="home__content">
+        <h3 class="intro-text">
+          I'm
+          <div class="wavy">
+            <span style="--i: 1">M</span>
+            <span style="--i: 2">U</span>
+            <span style="--i: 3">H</span>
+            <span style="--i: 4">A</span>
+            <span style="--i: 5">M</span>
+            <span style="--i: 6">M</span>
+            <span style="--i: 7">A</span>
+            <span style="--i: 8">D</span>
+            <span style="--i: 9"> </span>
+            <span style="--i: 10">H</span>
+            <span style="--i: 11">A</span>
+            <span style="--i: 12">S</span>
+            <span style="--i: 13">N</span>
+            <span style="--i: 14">A</span>
+            <span style="--i: 15">I</span>
+            <span style="--i: 16">N</span>
           </div>
+        </h3>
+        <h3 class="intro-text2">
+          Turning ideas into <br />
+          digital reality with code,<br />
+          creativity, and consistency.
+        </h3>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/muhammad-hasnain-0a26bb26b"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/muhammadhasnains/"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/muhammadhasnainshaikh786"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
         </div>
       </div>
-    
 
-
-              <div class="home__social">
-    <a href="https://www.linkedin.com/in/muhammad-hasnain-0a26bb26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-    <a href="https://www.facebook.com/muhammadhasnain.shaikh.98" class="home__social-icon" target="_blank"><i class='bx bxl-facebook'></i></a>
-    <a href="https://www.instagram.com/muhammadhasnains/" class="home__social-icon" target="_blank"><i class='bx bxl-instagram'></i></a>
-    <a href="https://github.com/muhammadhasnainshaikh786" class="home__social-icon" target="_blank"><i class='bx bxl-github'></i></a>
-</div>
-
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-     
-            <!-- MyResume section -->   
-       <section id="MyResume" class="py-5">
-              <div class="container">
-                <div class="row justify-content-center mb-4">
-                  <div class="col-md-8 text-center">
-                    <h1 class="section-title text-center">My Resume</h1>
-                    <p style="text-align: center; color: #ffffff;">Download my Resume and learn more about my experience. <br><br><br></p>
-                  <div style="text-align: center;" class="btn" class="section-title text-center"> <a href="assets/img/MuhammadHasnainResume 4.0.pdf" download>Download Pdf <br></a></div>
-                </div>
-              </div>
+      <div class="home__img">
+        <img src="assets/img/perfil.png" alt="Profile Picture" />
+      </div>
     </section>
-               <!-- AboutMe section -->  
-    <section id="AboutMe" class="py-5">
-      <div class="container">
-        <div class="row justify-content-center mb-4">
-          <div class="col-md-12 text-left">
-            <h1 class="section-title text-center">About Me</h1>
 
-            <p class="text-justify" style="color: #ffffff;">
-              I'm Muhammad Hasnain, a passionate Computer Science student and emerging Frontend & Blockchain Developer from Islamabad. I love building clean, responsive web interfaces and secure decentralized applications that solve real-world problems.
-              With hands-on experience in HTML, CSS, JavaScript, React, Tailwind, Solidity, and Web3.js, I combine frontend finesse with blockchain logic to create seamless, modern digital experiences. I’m always learning, growing, and ready to take on new challenges in the tech world.
-              When I'm not coding, you'll find me exploring tech blogs, managing my RO plant business, or brainstorming the next big idea.
-            <br />  <br><br>
-           <div class="code-block" id="typing-container">
-    <div id="caret-container" class="caret"></div>
-              <br />
-            </div>
-          </div>
+    <!-- ===== ABOUT ME ===== -->
+    <section id="AboutMe">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I'm <b>Muhammad Hasnain</b>, a creative and passionate Computer Science
+        undergraduate (graduating in Jan 2026), specializing in frontend and
+        blockchain development. I enjoy creating sleek, user-friendly, and
+        responsive digital experiences that bring real-world ideas to life.
+      </p>
+      <p>
+        With hands-on experience in <b>JavaScript, React, Solidity</b>, and
+        <b>Web3.js</b>, I blend design with logic to build visually appealing
+        and functional applications. My goal is to innovate through technology
+        and contribute meaningfully to the modern digital ecosystem.
+      </p>
+    </section>
+
+    <!-- ===== EXPERTISE ===== -->
+    <section id="expertise">
+      <h2 class="section-title">Areas of Expertise</h2>
+      <div class="expertise-container">
+        <div class="expertise-card">
+          <h3>Frontend Development</h3>
+          <p>HTML5, CSS3, JavaScript (ES6+), React.js, Next.js, Tailwind CSS</p>
+        </div>
+        <div class="expertise-card">
+          <h3>Blockchain Development</h3>
+          <p>Solidity, Smart Contracts, Web3.js, DApps, Blockchain Architecture</p>
+        </div>
+        <div class="expertise-card">
+          <h3>Programming & Problem Solving</h3>
+          <p>C++, OOP, Data Structures, Git, Debugging, Responsive Design</p>
         </div>
       </div>
     </section>
-   <!--=====------------------- projects --------------------------------------=====-->
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="exp-container">
+        <div class="exp-card">
+          <h3>Frontend Intern | Alfabolt</h3>
+          <p>Developed responsive web pages & React-based YouTube Clone.</p>
+          <span>June 2025 – Sep 2025</span>
+        </div>
+        <div class="exp-card">
+          <h3>Frontend Intern | Softxcape Developers</h3>
+          <p>Improved UI/UX and integrated APIs for client web projects.</p>
+          <span>Apr 2025 – Jul 2025</span>
+        </div>
+        <div class="exp-card">
+          <h3>Frontend Intern | CodeAlpha</h3>
+          <p>Created reusable components and interactive web interfaces.</p>
+          <span>Feb 2025 – May 2025</span>
+        </div>
+        <div class="exp-card">
+          <h3>Frontend Intern | Certura</h3>
+          <p>Built Kanban board & dynamic pages, optimized client websites.</p>
+          <span>Jun 2025 – Jul 2025</span>
+        </div>
+        <div class="exp-card">
+          <h3>Sales & Marketing Coordinator | Zamzama DW LLC</h3>
+          <p>Led marketing strategies and improved customer engagement.</p>
+          <span>Feb 2024 – Present</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-container">
+        <div class="edu-card">
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p>Bahria University, Islamabad (2022 – 2026)</p>
+        </div>
+        <div class="edu-card">
+          <h3>Intermediate (Pre-Engineering)</h3>
+          <p>Government Degree College, Larkana (2019 – 2021) — 92%</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
     <section class="projects section" id="projects">
-  <h2 class="section-title">Projects</h2>
-  <div class="project-grid" id="projectContainer">
-   
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid" id="projectContainer"></div>
+    </section>
 
-  </div>
-</section>
-            <!--===== CONTACT =====-->
-     <section class="contact section" id="contact">
-  <h2 class="section-title">Contact</h2>
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="form-wrapper">
+        <iframe name="hidden_iframe" style="display: none"></iframe>
 
-  <div class="form-wrapper">
-    <!-- Hidden iframe to prevent redirect -->
-    <iframe name="hidden_iframe" style="display:none;"></iframe>
-
-    <form action="https://formsubmit.co/shkhasnain55@gmail.com"
+        <form
+          action="https://formsubmit.co/shkhasnain55@gmail.com"
           method="POST"
           target="hidden_iframe"
           onsubmit="handleSubmit(event)"
-          class="contact-form">
+          class="contact-form"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <h3 class="form-title">Get in Touch</h3>
 
-      <!-- Prevent captcha and redirect -->
-      <input type="hidden" name="_captcha" value="false">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              id="name"
+              required
+            />
+          </div>
 
-      <h3 class="form-title">Get in Touch</h3>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              id="email"
+              required
+            />
+          </div>
 
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" name="name" class="form-control" id="name" placeholder="Enter your name" required>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              class="form-control"
+              id="message"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-button">Send Message</button>
+          <p id="statusMessage" class="success-message">
+            Message sent successfully!
+          </p>
+        </form>
       </div>
+    </section>
 
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email" required>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div>
+          <a
+            href="https://www.linkedin.com/in/muhammad-hasnain-0a26bb26b"
+            class="footer__icon"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/muhammadhasnains/"
+            class="footer__icon"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/muhammadhasnainshaikh786"
+            class="footer__icon"
+            target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+        <p>"The expert in anything was once a beginner" — Helen Hayes</p>
+        <p id="copyright">
+          &copy; 2025 Muhammad Hasnain. All rights reserved.
+        </p>
       </div>
+    </footer>
 
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea name="message" class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
-      </div>
-
-      <button type="submit" class="submit-button">Send Message</button>
-
-      <p id="statusMessage" class="success-message">Message sent successfully!</p>
-    </form>
-  </div>
-</section>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-  <div class="footer-container">
-    <!-- Column 1: Quote -->
-    <div class="footer-column">
-      <span>  
-        <a href="https://www.linkedin.com/in/muhammad-hasnain-0a26bb26b" class="footer__icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-        <a href="https://www.instagram.com/muhammadhasnains/" class="footer__icon" target="_blank"><i class='bx bxl-instagram'></i></a>
-        <a href="https://github.com/muhammadhasnainshaikh786" class="footer__icon" target="_blank"><i class='bx bxl-github'></i></a>
-        
-
-  <p>"The expert in anything was once a begineer --> Dr Ali Mirza/ Helen hayes  </p>
-    </div>
-
-    <!-- Column 2: Social & Contact -->
-    <div class="footer-column scroll-text">
-      <span>
-        📞 +92 336 3445501 | +92 310 5650987 &nbsp;&nbsp;
-        📍 E11/2 Islamabad, Pakistan &nbsp;&nbsp;
-      </span>
-    </div>
-    <div class="footer-column">
-      <p id="copyright">&copy; 2025 Muhammad Hasnain. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="assets/js/main.js"></script>
-        <script>
-  function showSuccessMessage() {
-    setTimeout(() => {
-      document.getElementById('statusMessage').style.display = 'block';
-    }, 1000); 
-  }
-</script>
-    </body>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
